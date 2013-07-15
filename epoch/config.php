@@ -1,7 +1,7 @@
 <?php
 
 // Multi instance support was written by Krunch
-date_default_timezone_set("Europe/Copenhagen");
+
 if (!isset($_SESSION['user_id']) || isset($_GET["instance"]))
 {
 	if (isset($_POST["instance"])) {
@@ -13,7 +13,7 @@ if (!isset($_SESSION['user_id']) || isset($_GET["instance"]))
 			$serverinstance = 1;
 		}
 	} else {
-		$serverinstance = 1;
+		$serverinstance = 11;
 	}
 
 	$_SESSION["serverinstance"] = $serverinstance;
@@ -33,6 +33,21 @@ if (!isset($_SESSION['user_id']) || isset($_GET["instance"]))
 	$_SESSION["dbpass"] 		= $dbpass = $hive["Database"]["Password"];
 	$_SESSION["dbname"] 		= $dbname = $hive["Database"]["Database"];
 
+//	$dbh = new mysqli($dbhost.':'.$dbport, $dbuser, $dbpass, $dbname);
+//
+//	if ($dbh->connect_errno) {
+//		echo $dbh->connect_error;
+//		exit;
+//	}
+//
+//	$sth = $dbh->prepare("select world.name from instance inner join world on instance.world_id = world.id where instance.id = ?");
+//    $sth->bind_param("i", $serverinstance);
+//	$sth->execute() or die($sth->error);
+//	$sth->bind_result($serverworld);
+//	$sth->fetch() or die($sth->error);
+//	$sth->close();
+//
+//	$_SESSION["serverworld"] = $serverworld;
 }
 else
 {
@@ -48,6 +63,8 @@ else
 	$dbpass 		= $_SESSION["dbpass"];
 	$dbname 		= $_SESSION["dbname"];
 	$serverworld 	= $_SESSION["serverworld"];
+
+//	$serverworld 	= "chernarus";
 }
 
 $sitename	= "DayZ Controlcenter (Instance ".$serverinstance.")";

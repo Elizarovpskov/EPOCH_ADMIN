@@ -4,9 +4,11 @@
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="default" />
 		<link rel="stylesheet" href="css/nav.css" type="text/css" />
+		<link rel="stylesheet" href="css/jquery.vehiclespawn.css" type="text/css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" language="javascript" type="text/javascript"></script>
 		<script src="js/popup.js" type="text/javascript"></script>
 		<script src="js/blockui.js" type="text/javascript"></script>
+		<script src="js/jquery.vehiclespawn.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div id="page-top-outer">    

@@ -9,10 +9,10 @@ include('config.php');
 
 if (isset($_GET['logout']))
 {
-	/*if (mysql_connect($dbhost.':'.$dbport, $dbuser, $dbpass)) {
+	if (mysql_connect($dbhost.':'.$dbport, $dbuser, $dbpass)) {
 		mysql_select_db($dbname) or die (mysql_error());
 		mysql_query("INSERT INTO `log_tool` (`action`, `user`, `timestamp`) VALUES ('LOGOUT', '{$_SESSION['login']}', NOW())");
-	}*/
+	}
 
 	if (isset($_SESSION['user_id'])) {
 		unset($_SESSION['user_id']);

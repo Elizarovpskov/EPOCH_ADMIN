@@ -63,6 +63,9 @@
 									<li><a href="index.php?view=check" class="item">Check Items</a></li>
 									<li class="nav-separator"><span></span></li>
 									<li><a href="index.php?view=search" class="item">Search</a></li>
+									<li><a href="index.php?view=fast_travel" class="item">Fast_Travel</a></li>		
+									<li><a href="index.php?view=vehicle_spawn" class="item">Vehicle Spawn</a></li>
+									<li><a href="index.php?view=teleport" class="item">Teleport</a></li>
 								</ul>
 							</li>
 							<?php } if (strcontains($_SESSION['user_permissions'], "map")) { ?>

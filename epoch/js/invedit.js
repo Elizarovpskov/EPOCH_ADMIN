@@ -26,10 +26,19 @@ var ItemList = {
 			["Crossbow", "Crossbow"],
 			["M1014", "M1014"],
 			["Remington 870 Flashlight", "Remington870_lamp"],
+			["Bizon", "bizon"],
+			["AK-107", "AK_107_kobra"],
+			["AK-107 PSO", "AK_107_pso"],
+			["AK107 GLkobra", "AK_107_GL_kobra"],
+			["AKS", "AK_47_S"],
 			["AK 74", "AK_74"],
 			["AKM", "AK_47_M"],
 			["AKS-74 Cobra", "AKS_74_kobra"],
+			["FN FAL AN/PVS-4", "FN_FAL_ANPVS4"],
+			["AKS-74 PSO", "AKS_74_pso"],
 			["AKS-74U", "AKS_74_U"],
+			["M4A1 SDCamo", "M4A1_HWS_GL_SD_Camo"],
+			["M4A1 M203 RCO", "M4A1_RCO_GL"],
 			["M16A2", "M16A2"],
 			["M16A2 M203", "M16A2GL"],
 			["M16A4", "m16a4_acg"],
@@ -44,6 +53,15 @@ var ItemList = {
 			["MP5", "MP5A5"],
 			["MP5 SD", "MP5SD"],
 			["Bizon PP-19 SD", "bizon_silenced"],
+			["M4SPR", "M4SPR"],
+			["Sa-58 CCO", "Sa58V_CCO_EP1"],
+			["Sa-58P", "Sa58P_EP1"],
+			["Sa-58V", "Sa58V_EP1"],
+			["Sa-58V ACOG", "Sa58V_RCO_EP1"],
+			["M40A3", "M40A3"],
+			["SVD des", "SVD_des_EP1"],
+			["SVD NSPU", "SVD_NSPU_EP1"],
+			["ksvk", "ksvk"],
 			["CZ50", "huntingrifle"],
 			["DMR", "DMR"],
 			["M14", "M14_EP1"],
@@ -51,6 +69,19 @@ var ItemList = {
 			["M107", "m107_DZ"],
 			["SVD Camo", "SVD_Camo"],
 			["AS50", "BAF_AS50_scoped"]
+			["M60", "M60A4_EP1"],
+			["M249 EP1", "M249_EP1"],
+			["m240 scoped", "m240_scoped_EP1"],
+			["RPK 74", "RPK_74"],
+			["L85A2 UGLHolo", "BAF_L85A2_RIS_SUSAT"],
+			["L85A2 RISHolo", "BAF_L85A2_RIS_Holo"],
+			["G36A", "G36A"],
+			["G36A camo", "G36A_camo"],
+			["G36C", "G36C"],
+			["G36C camo", "G36C_camo"],
+			["G36K", "G36K"],
+			["G36K camo", "G36K_camo"],
+			["Crossbow", "Crossbow_DZ"D]
 		];
 	},
 	secondary: function() {
@@ -62,17 +93,36 @@ var ItemList = {
 			["M9 Ammo", "15Rnd_9x19_M9"],
 			["M9 SD Ammo", "15Rnd_9x19_M9SD"],
 			["Glock 17 Ammo", "17Rnd_9x19_glock17"],
-			["UZI Ammo", "30Rnd_9x19_UZI"]
+			["UZI Ammo", "30Rnd_9x19_UZI"],
+			["HE GP25", "1Rnd_HE_GP25"],
+			["Smoke Red GP25", "1Rnd_SmokeRed_GP25"],
+			["Smoke Green GP25", "1Rnd_SmokeGreen_GP25"],
+			["Smoke Yellow GP25", "1Rnd_SmokeYellow_GP25"],
+			["Flare White GP25", "FlareWhite_GP25"],
+			["Flare Green GP25", "FlareGreen_GP25"],
+			["Flare Red GP25", "FlareRed_GP25"],
+			["Flare Yellow GP25", "FlareYellow_GP25"],
+			["HE M203", "1Rnd_HE_M203"],
+			["Smoke M203", "1Rnd_Smoke_M203"],
+			["Smoke Red M203", "1Rnd_SmokeRed_M203"],
+			["Smoke Green M203", "1Rnd_SmokeGreen_M203"],
+			["Smoke Yellow M203", "1Rnd_SmokeYellow_M203"],
+            ["Flare White M203", "FlareWhite_M203"],
+			["Flare Green M203", "FlareGreen_M203"],
+			["Flare Red M203", "FlareRed_M203"],
+			["Flare Yellow M203", "FlareYellow_M203"]
 		];
 	},
 	pistol: function() {
 		return [
+			["MakarovSD", "MakarovSD"],
 			["Makarov", "Makarov"],
 			["M1911", "Colt1911"],
 			["Revolver", "revolver_EP1"],
 			["M9", "M9"],
 			["M9 SD", "M9SD"],
 			["Glock 17", "glock17_EP1"],
+			["Sa-61", "Sa61_EP1"],
 			["UZI", "UZI_EP1"]
 		];
 	},
@@ -81,7 +131,10 @@ var ItemList = {
 			["Patrol Backpack", "DZ_Patrol_Pack_EP1"],
 			["Assault Backpack", "DZ_Assault_Pack_EP1"],
 			["Czech Backpack", "DZ_CivilBackpack_EP1"],
+			["Czech VestPuch", "DZ_Czech_Vest_Puch"],
+			["TKAssault_Pack", "DZ_TK_Assault_Pack_EP1"],
 			["Alice Backpack", "DZ_ALICE_Pack_EP1"],
+			["British ACU", "DZ_British_ACU"],
 			["Coyote Backpack", "DZ_Backpack_EP1"]
 		];
 	},
@@ -102,9 +155,15 @@ var ItemList = {
 			["Matches", "ItemMatchbox"],
 			["Flashlight", "ItemFlashlight"],
 			["Military Flashlight", "ItemFlashlightRed"],
+			["Hatchet", "ItemHatchet"],
+			["Crowbar", "ItemCrowbar"],
 			["Etrench Tool", "ItemEtool"],
 			["Toolbox", "ItemToolbox"],
-			["Hatchet", "ItemHatchet"]
+			["Hatchet", "ItemHatchet"],
+			["Machete", "ItemMachete"],
+			["MeleeBaseBallBat", "MeleeBaseBallBat"],
+			["ItemShovel", "ItemShovel"],
+			["Toolbox", "ItemToolbox"]
 		];
 	},
 	backpack: function() {
@@ -121,6 +180,10 @@ var ItemList = {
 		return [
 			["Baked Beans", "FoodCanBakedBeans"],
 			["Sardines", "FoodCanSardines"],
+			["Sardines", "FoodNutmix"],
+			["Sardines", "ItemSodaDrwaste"],
+			["Sardines", "ItemSodaLvg"],
+			["Sardines", "ItemSodaRabbit"],
 			["Pasta", "FoodCanPasta"],
 			["Coke", "ItemSodaCoke"],
 			["Pepsi", "ItemSodaPepsi"],
@@ -141,12 +204,15 @@ var ItemList = {
 			["Survivor Clothing", "Skin_Survivor2_DZ"],
 			["Camo Clothing", "Skin_Camo1_DZ"],
 			["Ghillie Clothing", "Skin_Sniper1_DZ"],
+			["Skin_Soldier1_DZ", "Skin_Soldier1_DZ"],			
 			["Tent", "ItemTent"],
 			["Satchel Charge", "PipeBomb"],
 			["Sandbag", "ItemSandbag"],
 			["Tank Trap", "ItemTankTrap"],
 			["Wire", "ItemWire"],
 			["Jerrycan", "ItemJerrycan"],
+			["Skin_Soldier1_DZ", "Skin_Soldier1_DZ"],			
+			["ItemFuelcan", "ItemFuelcan"],
 			["Wood Pile", "PartWoodPile"],
 			["Scrapmetal", "PartGeneric"],
 			["Glass", "PartGlass"],
@@ -286,6 +352,8 @@ var InventoryEditor = {
 			case 'primary':
 				var foundAtIndex = InventoryEditor.FindItemInArray(current, InventoryEditor.InventoryData[0]);
 
+
+				
 				if (remove) {
 					InventoryEditor.InventoryData[0] = RemoveAtElement(InventoryEditor.InventoryData[0], foundAtIndex);
 					ImgElement.attr('src', "images/gear/rifle.png").attr('title', '').attr('alt', '');
