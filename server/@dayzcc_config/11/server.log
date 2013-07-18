@@ -1,0 +1,77 @@
+﻿14:47:22 BattlEye Server: Initialized (v1.173)
+14:47:22 Идентификатор сервера создан
+14:47:29 BattlEye Server: RCon admin #0 (93.127.55.222:16487) logged in
+14:47:30 BattlEye Server: RCon admin #1 (93.127.55.222:16489) logged in
+14:47:31 BattlEye Server: RCon admin #2 (93.127.55.222:16490) logged in
+14:47:37 BattlEye Server: RCon admin #3 (127.0.0.1:49230) logged in
+14:54:04 BattlEye Server: RCon admin #0 (127.0.0.1:49231) logged in
+14:54:05 BattlEye Server: RCon admin #0: (Global) Initializing Bec
+14:55:15 BattlEye Server: RCon admin #1 (127.0.0.1:49232) logged in
+14:55:16 BattlEye Server: RCon admin #1: (Global) Initializing Bec
+14:56:28 BattlEye Server: RCon admin #0 (127.0.0.1:49233) logged in
+14:56:28 BattlEye Server: RCon admin #0: (Global) Initializing Bec
+14:59:26 BattlEye Server: Initialized (v1.173)
+14:59:26 Идентификатор сервера создан
+14:59:28 Cappie использует измененный файл данных
+14:59:28 BattlEye Server: Player #0 Cappie (188.191.144.51:2304) connected
+14:59:28 Игрок Cappie соединяется.
+14:59:28 Задание DayZ Chernarus считывается из банка.
+14:59:31 BattlEye Server: RCon admin #0 (93.127.55.222:17210) logged in
+14:59:31 Игрок Cappie отсоединился.
+14:59:31 BattlEye Server: Player #0 Cappie disconnected
+14:59:31 Все игроки отсоединились, ожидаю игроков.
+14:59:32 BattlEye Server: RCon admin #1 (93.127.55.222:17213) logged in
+14:59:33 BattlEye Server: RCon admin #2 (93.127.55.222:17216) logged in
+14:59:34 BattlEye Server: RCon admin #3 (93.127.55.222:17217) logged in
+14:59:35 BattlEye Server: RCon admin #4 (93.127.55.222:17218) logged in
+14:59:47 BattlEye Server: RCon admin #0 (93.127.55.222:17221) logged in
+14:59:48 BattlEye Server: RCon admin #1 (93.127.55.222:17222) logged in
+14:59:49 BattlEye Server: RCon admin #2 (93.127.55.222:17223) logged in
+15:00:23 BattlEye Server: Initialized (v1.173)
+15:00:23 Идентификатор сервера создан
+15:00:25 BattlEye Server: RCon admin #0 (127.0.0.1:49308) logged in
+15:00:26 BattlEye Server: RCon admin #0: (Global) Initializing Bec
+15:00:30 BattlEye Server: RCon admin #1 (93.127.55.222:17259) logged in
+15:00:31 BattlEye Server: RCon admin #2 (93.127.55.222:17262) logged in
+15:00:33 BattlEye Server: RCon admin #3 (127.0.0.1:49309) logged in
+15:03:15 BattlEye Server: Initialized (v1.173)
+15:03:15 Host identity created.
+15:03:17 BattlEye Server: RCon admin #0 (127.0.0.1:50531) logged in
+15:03:18 BattlEye Server: RCon admin #0: (Global) Initializing Bec
+15:03:19 BattlEye Server: RCon admin #1 (93.127.55.222:17461) logged in
+15:03:20 BattlEye Server: RCon admin #2 (93.127.55.222:17462) logged in
+15:03:21 BattlEye Server: RCon admin #3 (93.127.55.222:17465) logged in
+15:03:33 BattlEye Server: RCon admin #1 (127.0.0.1:50532) logged in
+15:09:46 Romanta uses modified data file
+15:09:46 BattlEye Server: Player #0 Romanta (192.168.1.101:2304) connected
+15:09:46 Player Romanta connecting.
+15:09:46 Mission DayZ Chernarus read from bank.
+15:09:48 Player Romanta connected (id=34006278).
+15:09:49 BattlEye Server: Player #0 Romanta - GUID: 45c99078497bd95b6dc1c3ca303a369e (unverified)
+15:09:49 BattlEye Server: RCon admin #1: (Global) Welcome back, Romanta!
+15:09:49 BattlEye Server: Verified GUID (45c99078497bd95b6dc1c3ca303a369e) of player #0 Romanta
+15:09:58 Roles assigned.
+15:09:58 Reading mission ...
+15:10:15 Mission read.
+15:11:36 Game started.
+15:13:22 BattlEye Server: RCon admin #0: (Global) BEC : Добро пожаловать в АД, ЭТО ПВП СЕРВЕР. Welcome to hell, it's pvp server.. 
+15:15:14 BattlEye Server: RCon admin #2 (127.0.0.1:63902) logged in
+15:15:18 BattlEye Server: RCon admin #0: (Global) BEC : адрес сайта нашего сервера http://dayzkiev.clan.su  Заходите знакомтесь 
+15:15:30 LBI uses modified data file
+15:15:30 BattlEye Server: Player #1 LBI (62.244.154.216:2304) connected
+15:15:30 Player LBI connecting.
+15:15:31 Player LBI connected (id=136640902).
+15:15:34 BattlEye Server: Player #1 LBI - GUID: 21760cc3177351de04748f951984ee10 (unverified)
+15:15:34 Player LBI disconnected.
+15:15:34 BattlEye Server: Player #1 LBI disconnected
+15:15:34 BattlEye Server: RCon admin #2: (Global) Welcome back, LBI!
+15:17:24 BattlEye Server: RCon admin #0: (Global) BEC : Иногда Админ устраивает охоту, на мясо . 
+15:17:33 Pgameing uses modified data file
+15:17:33 BattlEye Server: Player #1 Pgameing (1.1.137.97:23370) connected
+15:17:33 Player Pgameing connecting.
+15:17:35 Player Pgameing connected (id=2838788).
+15:17:36 BattlEye Server: Player #1 Pgameing - GUID: a743124b6dd8167e5a42f53789c50152 (unverified)
+15:17:36 BattlEye Server: RCon admin #2: (Global) Welcome back, Pgameing!
+15:17:36 BattlEye Server: Verified GUID (a743124b6dd8167e5a42f53789c50152) of player #1 Pgameing
+15:17:54 Player Pgameing kicked off by BattlEye: Script Restriction #44
+15:17:54 Player Pgameing disconnected.
