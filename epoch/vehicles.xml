@@ -8,6 +8,14 @@
 		<transportmaxbackpacks>2</transportmaxbackpacks>
 		<cargo>1</cargo>
 	</sah6x_dz>
+	<suh1y_dz>
+		<Type>Helicopter</Type>
+		<Name>UH1Y-DZ</Name>
+		<transportmaxweapons>3</transportmaxweapons>
+		<transportmaxmagazines>10</transportmaxmagazines>
+		<transportmaxbackpacks>2</transportmaxbackpacks>
+		<cargo>1</cargo>
+	</suh1y_dz>
 	<san2_dz>
 		<Type>Plane</Type>
 		<Name>AN-2</Name>
@@ -224,14 +232,6 @@
 		<transportmaxbackpacks>5</transportmaxbackpacks>
 		<cargo>5</cargo>
 	</smh6j_dz>
-	<smi17_dz>
-		<Type>Helicopter</Type>
-		<Name>Mi-17</Name>
-		<transportmaxweapons>10</transportmaxweapons>
-		<transportmaxmagazines>50</transportmaxmagazines>
-		<transportmaxbackpacks>10</transportmaxbackpacks>
-		<cargo>16</cargo>
-	</smi17_dz>
 	<skh_maule_m7_white_dz>
 		<Type>Plane</Type>
 		<Name>Maule M7</Name>
@@ -272,6 +272,30 @@
 		<transportmaxbackpacks>0</transportmaxbackpacks>
 		<cargo>0</cargo>
 	</spbx>
+	<sjetskiyanahui_case_yellow>
+		<Type>PBX</Type>
+		<Name>PBX</Name>
+		<transportmaxweapons>0</transportmaxweapons>
+		<transportmaxmagazines>0</transportmaxmagazines>
+		<transportmaxbackpacks>0</transportmaxbackpacks>
+		<cargo>0</cargo>
+	</sjetskiyanahui_case_yellow>	
+	<sjetskiyanahui_case_green>
+		<Type>PBX</Type>
+		<Name>PBX</Name>
+		<transportmaxweapons>0</transportmaxweapons>
+		<transportmaxmagazines>0</transportmaxmagazines>
+		<transportmaxbackpacks>0</transportmaxbackpacks>
+		<cargo>0</cargo>
+	</sjetskiyanahui_case_green>
+	<sjetskiyanahui_case_red>
+		<Type>PBX</Type>
+		<Name>PBX</Name>
+		<transportmaxweapons>0</transportmaxweapons>
+		<transportmaxmagazines>0</transportmaxmagazines>
+		<transportmaxbackpacks>0</transportmaxbackpacks>
+		<cargo>0</cargo>
+	</sjetskiyanahui_case_red>	
 	<srhib>
 		<Type>PBX</Type>
 		<Name>RHIB</Name>
@@ -280,6 +304,14 @@
 		<transportmaxbackpacks>0</transportmaxbackpacks>
 		<cargo>0</cargo>
 	</srhib>
+	<smetalpanel_dz>
+		<Type>Metalpole</Type>
+		<Name>RHIB</Name>
+		<transportmaxweapons>0</transportmaxweapons>
+		<transportmaxmagazines>0</transportmaxmagazines>
+		<transportmaxbackpacks>0</transportmaxbackpacks>
+		<cargo>0</cargo>
+	</smetalpanel_dz>
 	<ss1203_tk_civ_ep1>
 		<Type>Car</Type>
 		<Name>S1203</Name>
@@ -297,7 +329,7 @@
 		<cargo>3</cargo>
 	</ss1203_ambulance_ep1>
 	<ssandbag1_dz>
-		<Type>Sandbag</Type>
+		<Type>sandbag1_dz</Type>
 		<Name>Sandbag</Name>
 		<transportmaxweapons>0</transportmaxweapons>
 		<transportmaxmagazines>0</transportmaxmagazines>
@@ -353,7 +385,7 @@
 		<cargo>0</cargo>
 	</ssmallboat_2>
 	<ssuv_tk_ep1>
-		<Type>Car</Type>
+		<Type>Jeep_closed</Type>
 		<Name>SUV</Name>
 		<transportmaxweapons>10</transportmaxweapons>
 		<transportmaxmagazines>50</transportmaxmagazines>
@@ -361,13 +393,45 @@
 		<cargo>5</cargo>
 	</ssuv_tk_ep1>
 	<ssuv_tk_civ_ep1>
-		<Type>Car</Type>
+		<Type>Jeep_closed</Type>
 		<Name>SUV</Name>
 		<transportmaxweapons>10</transportmaxweapons>
 		<transportmaxmagazines>50</transportmaxmagazines>
 		<transportmaxbackpacks>2</transportmaxbackpacks>
 		<cargo>5</cargo>
 	</ssuv_tk_civ_ep1>
+	<ssuv_blue>
+		<Type>Jeep_closed</Type>
+		<Name>SUV</Name>
+		<transportmaxweapons>10</transportmaxweapons>
+		<transportmaxmagazines>50</transportmaxmagazines>
+		<transportmaxbackpacks>2</transportmaxbackpacks>
+		<cargo>5</cargo>
+	</ssuv_blue>
+	<ssuv_red>
+		<Type>Jeep_closed</Type>
+		<Name>SUV</Name>
+		<transportmaxweapons>10</transportmaxweapons>
+		<transportmaxmagazines>50</transportmaxmagazines>
+		<transportmaxbackpacks>2</transportmaxbackpacks>
+		<cargo>5</cargo>
+	</ssuv_red>
+	<ssuv_silver>
+		<Type>Jeep_closed</Type>
+		<Name>SUV</Name>
+		<transportmaxweapons>10</transportmaxweapons>
+		<transportmaxmagazines>50</transportmaxmagazines>
+		<transportmaxbackpacks>2</transportmaxbackpacks>
+		<cargo>5</cargo>
+	</ssuv_silver>
+	<sarmoredsuv_pmc_dz>
+		<Type>Jeep_armed</Type>
+		<Name>SUV</Name>
+		<transportmaxweapons>10</transportmaxweapons>
+		<transportmaxmagazines>50</transportmaxmagazines>
+		<transportmaxbackpacks>2</transportmaxbackpacks>
+		<cargo>5</cargo>
+	</sarmoredsuv_pmc_dz>	
 	<stentstorage>
 		<Type>Tent</Type>
 		<Name>Tent</Name>
@@ -376,6 +440,38 @@
 		<transportmaxbackpacks>5</transportmaxbackpacks>
 		<cargo>0</cargo>
 	</stentstorage>
+	<stentstoragedomed2>
+		<Type>Tent</Type>
+		<Name>Tent</Name>
+		<transportmaxweapons>10</transportmaxweapons>
+		<transportmaxmagazines>50</transportmaxmagazines>
+		<transportmaxbackpacks>5</transportmaxbackpacks>
+		<cargo>0</cargo>
+	</stentstoragedomed2>
+	<sstorageshed_dz>
+		<Type>Tent</Type>
+		<Name>StorageShed_DZ</Name>
+		<transportmaxweapons>10</transportmaxweapons>
+		<transportmaxmagazines>50</transportmaxmagazines>
+		<transportmaxbackpacks>5</transportmaxbackpacks>
+		<cargo>0</cargo>
+	</sstorageshed_dz>
+	<swooden_shed_dz>
+		<Type>Tent</Type>
+		<Name>Wooden_shed_DZ</Name>
+		<transportmaxweapons>10</transportmaxweapons>
+		<transportmaxmagazines>50</transportmaxmagazines>
+		<transportmaxbackpacks>5</transportmaxbackpacks>
+		<cargo>0</cargo>
+	</swooden_shed_dz>
+	<swoodshack_dz>
+		<Type>Tent</Type>
+		<Name>WoodShack_DZ</Name>
+		<transportmaxweapons>10</transportmaxweapons>
+		<transportmaxmagazines>50</transportmaxmagazines>
+		<transportmaxbackpacks>5</transportmaxbackpacks>
+		<cargo>0</cargo>
+	</swoodshack_dz>	
 	<svaultstoragelocked>
 		<Type>Vault</Type>
 		<Name>Vault</Name>
@@ -857,6 +953,14 @@
 		<transportmaxbackpacks>10</transportmaxbackpacks>
 		<cargo>24</cargo>
 	</sch_47f_ep1>
+	<sch_47f_ep1_dz>
+		<Type>Helicopter</Type>
+		<Name>CH-47F</Name>
+		<transportmaxweapons>3</transportmaxweapons>
+		<transportmaxmagazines>20</transportmaxmagazines>
+		<transportmaxbackpacks>10</transportmaxbackpacks>
+		<cargo>24</cargo>
+	</sch_47f_ep1_dz>
 	<smh6j_ep1>
 		<Type>Helicopter</Type>
 		<Name>MH-6J</Name>
@@ -865,6 +969,30 @@
 		<transportmaxbackpacks>1</transportmaxbackpacks>
 		<cargo>5</cargo>
 	</smh6j_ep1>
+	<scsj_gyroc>
+		<Type>Helicopter</Type>
+		<Name>CSJ-GyroC</Name>
+		<transportmaxweapons>3</transportmaxweapons>
+		<transportmaxmagazines>20</transportmaxmagazines>
+		<transportmaxbackpacks>1</transportmaxbackpacks>
+		<cargo>5</cargo>
+	</scsj_gyroc>
+	<scsj_gyrocover>
+		<Type>Helicopter</Type>
+		<Name>CSJ-GyroCover</Name>
+		<transportmaxweapons>3</transportmaxweapons>
+		<transportmaxmagazines>20</transportmaxmagazines>
+		<transportmaxbackpacks>1</transportmaxbackpacks>
+		<cargo>5</cargo>
+	</scsj_gyrocover>
+	<scsj_gyrop>
+		<Type>Helicopter</Type>
+		<Name>CSJ-GyroP</Name>
+		<transportmaxweapons>3</transportmaxweapons>
+		<transportmaxmagazines>20</transportmaxmagazines>
+		<transportmaxbackpacks>1</transportmaxbackpacks>
+		<cargo>5</cargo>
+	</scsj_gyrop>
 	<smq9predatorb_us_ep1>
 		<Type>Plane</Type>
 		<Name>MQ-9</Name>
@@ -889,6 +1017,22 @@
 		<transportmaxbackpacks>10</transportmaxbackpacks>
 		<cargo>16</cargo>
 	</smi17_cdf>
+	<smi17_civilian_dz>
+		<Type>Helicopter</Type>
+		<Name>Mi17-Civilian</Name>
+		<transportmaxweapons>3</transportmaxweapons>
+		<transportmaxmagazines>20</transportmaxmagazines>
+		<transportmaxbackpacks>10</transportmaxbackpacks>
+		<cargo>16</cargo>
+	</smi17_civilian_dz>
+	<smi17_dz>
+		<Type>Helicopter</Type>
+		<Name>Mi-17</Name>
+		<transportmaxweapons>3</transportmaxweapons>
+		<transportmaxmagazines>20</transportmaxmagazines>
+		<transportmaxbackpacks>10</transportmaxbackpacks>
+		<cargo>16</cargo>
+	</smi17_dz>
 	<smi24_d>
 		<Type>Helicopter</Type>
 		<Name>Mi-24D</Name>
@@ -1546,7 +1690,7 @@
 		<cargo>1</cargo>
 	</sold_moto_tk_civ_ep1>
 	<sural_tk_civ_ep1>
-		<Type>Truck</Type>
+		<Type>Truck_closed</Type>
 		<Name>Ural</Name>
 		<transportmaxweapons>50</transportmaxweapons>
 		<transportmaxmagazines>200</transportmaxmagazines>
@@ -1554,7 +1698,7 @@
 		<cargo>14</cargo>
 	</sural_tk_civ_ep1>
 	<sv3s_open_tk_civ_ep1>
-		<Type>Car</Type>
+		<Type>Truck_closed</Type>
 		<Name>V3S</Name>
 		<transportmaxweapons>50</transportmaxweapons>
 		<transportmaxmagazines>200</transportmaxmagazines>
@@ -1746,7 +1890,7 @@
 		<cargo>1</cargo>
 	</sgrad_ru>
 	<skamaz>
-		<Type>Truck</Type>
+		<Type>Truck_closed</Type>
 		<Name>Kamaz</Name>
 		<transportmaxweapons>50</transportmaxweapons>
 		<transportmaxmagazines>200</transportmaxmagazines>
@@ -1794,7 +1938,7 @@
 		<cargo>1</cargo>
 	</soffroad_spg9_tk_gue_ep1>
 	<spickup_pk_tk_gue_ep1>
-		<Type>Car</Type>
+		<Type>Jeep_armed</Type>
 		<Name>Pickup</Name>
 		<transportmaxweapons>10</transportmaxweapons>
 		<transportmaxmagazines>50</transportmaxmagazines>
@@ -1834,7 +1978,7 @@
 		<cargo>6</cargo>
 	</suaz_unarmed_un_ep1>
 	<sural_un_ep1>
-		<Type>Car</Type>
+		<Type>Truck_closed</Type>
 		<Name>Ural</Name>
 		<transportmaxweapons>50</transportmaxweapons>
 		<transportmaxmagazines>200</transportmaxmagazines>
@@ -1874,7 +2018,7 @@
 		<cargo>1</cargo>
 	</stt650_gue>
 	<sural_zu23_gue>
-		<Type>Car</Type>
+		<Type>Truck</Type>
 		<Name>Ural</Name>
 		<transportmaxweapons>50</transportmaxweapons>
 		<transportmaxmagazines>200</transportmaxmagazines>
@@ -1906,7 +2050,7 @@
 		<cargo>5</cargo>
 	</ssuv_pmc_baf>
 	<shmmwv_m1151_m2_cz_des_ep1>
-		<Type>Car</Type>
+		<Type>Armored_armed</Type>
 		<Name>Humvee</Name>
 		<transportmaxweapons>10</transportmaxweapons>
 		<transportmaxmagazines>50</transportmaxmagazines>
@@ -1922,7 +2066,7 @@
 		<cargo>7</cargo>
 	</slandrover_cz_ep1>
 	<slandrover_special_cz_ep1>
-		<Type>Car</Type>
+		<Type>Jeep_armed</Type>
 		<Name>Military Offroad Special</Name>
 		<transportmaxweapons>10</transportmaxweapons>
 		<transportmaxmagazines>50</transportmaxmagazines>
@@ -1946,7 +2090,7 @@
 		<cargo>3</cargo>
 	</shmmwv_des_ep1>
 	<shmmwv_m1035_des_ep1>
-		<Type>Car</Type>
+		<Type>Jeep_closed</Type>
 		<Name>Humvee</Name>
 		<transportmaxweapons>10</transportmaxweapons>
 		<transportmaxmagazines>50</transportmaxmagazines>
@@ -1978,7 +2122,7 @@
 		<cargo>2</cargo>
 	</shmmwv_m998_crows_mk19_des_ep1>
 	<shmmwv_m998a2_sov_des_ep1>
-		<Type>Car</Type>
+		<Type>Armored_armed</Type>
 		<Name>Humvee</Name>
 		<transportmaxweapons>10</transportmaxweapons>
 		<transportmaxmagazines>50</transportmaxmagazines>
@@ -2282,7 +2426,7 @@
 		<cargo>2</cargo>
 	</suralrepair_ins>
 	<sgaz_vodnik_medevac>
-		<Type>Truck</Type>
+		<Type>Jeep_sport</Type>
 		<Name>Vodnik</Name>
 		<transportmaxweapons>10</transportmaxweapons>
 		<transportmaxmagazines>50</transportmaxmagazines>
@@ -2362,7 +2506,7 @@
 		<cargo>1</cargo>
 	</sv3s_supply_tk_gue_ep1>
 	<shmmwv_ambulance_cz_des_ep1>
-		<Type>Truck</Type>
+		<Type>Minivan</Type>
 		<Name>Humvee Ambulance</Name>
 		<transportmaxweapons>10</transportmaxweapons>
 		<transportmaxmagazines>50</transportmaxmagazines>
@@ -2370,7 +2514,7 @@
 		<cargo>5</cargo>
 	</shmmwv_ambulance_cz_des_ep1>
 	<shmmwv_ambulance_des_ep1>
-		<Type>Truck</Type>
+		<Type>Minivan</Type>
 		<Name>Humvee Ambulance</Name>
 		<transportmaxweapons>10</transportmaxweapons>
 		<transportmaxmagazines>50</transportmaxmagazines>
@@ -2474,7 +2618,7 @@
 		<cargo>2</cargo>
 	</suralrepair_cdf>
 	<shmmwv_ambulance>
-		<Type>Truck</Type>
+		<Type>Minivan</Type>
 		<Name>Humvee Ambulance</Name>
 		<transportmaxweapons>10</transportmaxweapons>
 		<transportmaxmagazines>50</transportmaxmagazines>
@@ -2505,4 +2649,28 @@
 		<transportmaxbackpacks>8</transportmaxbackpacks>
 		<cargo>2</cargo>
 	</smtvrrepair>
+	<sland_hbarrier1_dz>
+		<Type>Barrier</Type>
+		<Name>Land_HBarrier1-DZ</Name>
+		<transportmaxweapons>0</transportmaxweapons>
+		<transportmaxmagazines>0</transportmaxmagazines>
+		<transportmaxbackpacks>0</transportmaxbackpacks>
+		<cargo>0</cargo>
+	</sland_hbarrier1_dz>
+	<sfence_corrugated_dz>
+		<Type>Barrier</Type>
+		<Name>Fence_corrugated-DZ</Name>
+		<transportmaxweapons>0</transportmaxweapons>
+		<transportmaxmagazines>0</transportmaxmagazines>
+		<transportmaxbackpacks>0</transportmaxbackpacks>
+		<cargo>0</cargo>
+	</sfence_corrugated_dz>
+	<slightpole_dz>
+		<Type>Light</Type>
+		<Name>LightPole-DZ</Name>
+		<transportmaxweapons>0</transportmaxweapons>
+		<transportmaxmagazines>0</transportmaxmagazines>
+		<transportmaxbackpacks>0</transportmaxbackpacks>
+		<cargo>0</cargo>
+	</slightpole_dz>	
 </vehicles>

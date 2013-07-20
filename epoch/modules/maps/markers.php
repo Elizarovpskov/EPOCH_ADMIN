@@ -1,5 +1,7 @@
 <?php
+error_reporting(E_ALL);
 ini_set('display_errors', 1);
+
 function markers_player($res, $world) {
 	$markers = array();
 
@@ -47,6 +49,7 @@ function markers_vehicle($res, $world) {
 
 		require_once('modules/calc.php');
 		$description = '<h2><a href="index.php?view=info&show=4&id='.$row['ObjectID'].'">'.$type.'</a></h2><table><tr><td><img src="images/vehicles/'.$ltype.'.png" alt="" style="width: 100px;" /></td><td>&nbsp;&nbsp;&nbsp;</td><td style="vertical-align: top;"><h2>Position:</h2>Left: '.round(world_x($x, $world)).'<br />Top: '.round(world_y($y, $world)).'</td></tr></table>';
+//		$description = "<h2>".$row['Classname']."</h2><table ><tr><td><img style=\"max-width: 100px;\" src=\"images/vehicles/".$row['Classname'].".png\"></td><td>&nbsp;</td><td style=\"vertical-align:top; \"><h2>ID:".$row['wvid']."</h2><h2>Change:".($row['chance']*100)."%</h2><h2>Position:</h2>horizontal:".world_x($x,getMapName())." vertical:".world_y($y,getMapName())."</td></tr></table>";
 		
 		$tmp = array();
 		$tmp["lat"] = (world_y($y, $world) / 10);

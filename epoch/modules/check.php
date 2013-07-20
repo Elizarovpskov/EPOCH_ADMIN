@@ -79,12 +79,17 @@ if (isset($_SESSION['user_id']) and (strpos($_SESSION['user_permissions'], "tabl
 			WHERE object_data.Instance = '".$serverinstance."' 
 			AND (Classname = 'dummy' 
 			OR Classname = 'TentStorage' 
-			#OR Classname = 'Hedgehog_DZ' 
-			#OR Classname = 'Wire_cat1' 
-			#OR Classname = 'WoodGate_DZ' 
-			#OR Classname = 'Sandbag1_DZ'
-			#OR Classname = 'Fort_RazorWire'
-			#OR Classname = 'TrapBear'
+			OR Classname = 'Hedgehog_DZ' 
+			OR Classname = 'Wire_cat1' 
+			OR Classname = 'WoodGate_DZ' 
+			OR Classname = 'Sandbag1_DZ'
+			OR Classname = 'Fort_RazorWire'
+			OR Classname = 'TrapBear'
+			OR Classname = 'Fence_corrugated_DZ'			
+			OR Classname = 'Wooden_shed_DZ'
+			OR Classname = 'TentStorageDomed2'			
+			OR Classname = 'StorageShed_DZ'
+			OR Classname = 'WoodShack_DZ'			
 			OR Classname = 'VaultStorageLocked')") or die(mysql_error());
 	if (mysql_num_rows($res) > 0) {
 		while ($row = mysql_fetch_array($res)) {

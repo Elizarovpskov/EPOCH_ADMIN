@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 $res1 = mysql_query("
 SELECT player_data.PlayerName, character_data.* 
@@ -21,7 +23,7 @@ AND Classname != 'Sandbag1_DZ'
 AND Classname != 'Fort_RazorWire' 
 AND Classname != 'VaultStorageLocked' 
 AND Classname != 'TrapBear' 
-AND object_data.Datestamp > DATE_SUB(now(), INTERVAL 1 MINUTE)") or die(mysql_error());
+AND object_data.lastactiv > DATE_SUB(now(), INTERVAL 1 MINUTE)") or die(mysql_error());
 
 $markers = array();
 $markers = array_merge($markers, markers_player($res1, $serverworld));
