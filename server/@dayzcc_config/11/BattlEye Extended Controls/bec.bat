@@ -1,1 +1,0 @@
-bec_6.exe -f Config.cfg YOU PASSWORDS
