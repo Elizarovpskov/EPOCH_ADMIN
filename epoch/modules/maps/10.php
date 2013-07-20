@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 
 $res1 = mysql_query("
 SELECT player_data.PlayerName, character_data.* 
