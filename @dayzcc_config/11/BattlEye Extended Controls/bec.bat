@@ -1,0 +1,1 @@
+bec_6.exe -f Config.cfg 333166
